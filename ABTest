@@ -1,5 +1,7 @@
 {
-  "DefaultValues": {
+  "DefaultValues":
+  
+  {
     "interstitials_levelup": true,
     "interstitials_fly": true,
     "interstitials_achieve": true,
@@ -10,14 +12,18 @@
     "world_cost_multiplier": 0.1,
     "more_game_frequency": 9999,
     "spin_enabled": true,
+    
+  
 
-    "free_fly_enbale": false,
+  
+
+    "free_fly_enbale": true,
     "free_fly_probability": 0.5,
     "free_fly_min_frequency": 35,
     "free_fly_max_frequency": 45,
     "free_fly_multiplier": 0.2,
 
-    "saboteur_enable": true,
+    "saboteur_enable": false,
     "saboteur_frequency": 75,
     "saboteur_level": 5,
     "saboteur_movetime": 5,
@@ -41,11 +47,11 @@
     "ultra_time": 120,
     "ultra_cost": 200,
 
-    "sign_enable": false,
+    "sign_enable": true},
 
     "AB_test_users": 0
-  },
-   "ABtests": {
+  ,
+  "ABtests": {
     "1.4.8Ref": {
       "panel_size": 10
     }
